@@ -1,0 +1,37 @@
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 4;
+}
+.modal {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  border-radius: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.inp {
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.btn {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: orange;
+  width: 300px;
+}
